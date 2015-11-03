@@ -1,5 +1,13 @@
 * Languages, and about languages, on the BEAM
 
+This document is intended to list (a) languages implemented to run on the BEAM, the Erlang virtual machine, and (b) documents (articles & presentations) about the hows and whys of writing languages to run on the BEAM.
+
+For the moment, and for want of a better name, I call such languages "BEAM languages" (although I have heard that there are other Erlang VMs, ...).
+
+I would like the document to be comprehensive, or at least "representative".  If I have missed a BEAM language, some noteworthy discussion about a BEAM language, or documenation about implementing languages targetting the BEAM, please let me know through the usual channels (issues, forks, PRs, tweets, emails, etc.).  
+
+Thank you.
+
 ** Languages
 
 *** Erlang
