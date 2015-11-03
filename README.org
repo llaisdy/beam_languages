@@ -1,0 +1,113 @@
+* Languages, and about languages, on the BEAM
+
+** Languages
+
+*** Erlang
+
+- http://www.erlang.org/
+- https://github.com/erlang/otp
+
+*** Influenced by Lisp(s)
+
+**** joxa (2011+)
+
+- http://joxa.org/
+- https://github.com/joxa/joxa
+- https://joxa.readthedocs.org/
+
+***** Differences Between Joxa and LFE
+
+- Eric Merritt
+- 2012/02/21
+- http://blog.ericbmerritt.com/2012/02/21/differences-between-joxa-and-lfe.html
+
+***** Joxa: A Full Featured Lisp on the Erlang VM
+
+- Eric Merritt
+- 2012/08/22
+- https://vimeo.com/49116180
+
+**** lfe (2008+)
+
+- http://lfe.io/
+- https://github.com/rvirding/lfe
+
+**** 'the concurrent schemer' (2013+)
+
+- http://the-concurrent-schemer.github.io/scm-doc/
+- https://github.com/the-concurrent-schemer/scm
+
+*** Influenced by Ruby
+
+**** reia (-2011)
+
+- http://reia-lang.org/
+- https://github.com/tarcieri/reia
+
+**** elixir (2012+)
+
+- http://elixir-lang.org/
+- https://github.com/elixir-lang/elixir
+
+*** Influenced by Prolog: erlog (2008+)
+
+- https://github.com/rvirding/erlog
+
+***** Backtracking in Erlang, part 1 - control
+
+- Robert Virding
+- 2009/03/18
+- http://rvirding.blogspot.co.uk/2009/03/backtracking-in-erlang-part-1-control.html
+
+*** Influenced by Lua: luerl (2012+)
+
+- https://github.com/rvirding/luerl
+
+*** xerl (2013)
+
+- https://github.com/extend/xerl
+
+Five web articles in 2013 starting with:
+
+- 2013/01/30 
+- "Xerl: empty modules"
+- http://ninenines.eu/articles/xerl-0.1-empty-modules/
+
+** About languages
+
+*** Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem
+
+(slides)
+- Brian Troutwine
+- 2014/07/23
+- http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014
+
+*** Implementing Languages on the BEAM (1)
+
+(video)
+- Robert Virding
+- 2014/10/29 (London Erlang UG)
+- https://www.youtube.com/watch?v=qm0mbQbc9Kc
+
+*** Implementing Languages on the BEAM (2)
+
+(slides & video)
+- Robert Virding
+- 2014/11/04 (Codemesh 2014)
+- http://www.codemesh.io/codemesh2014/robert-virding
+
+*** Create Your Own Language: How to implement a language on top of Erlang Virtual Machine (BEAM)
+
+(slides)
+- Hamidreza Soleimani
+- 2015/08/06
+- https://drive.google.com/file/d/0B9D6BzMBVYONR0ZzV3pTb3N4bms/view?pli=1
+
+*** Eric Merritt, Erlang and distributed systems expert, gives his views on BEAM languages, Hindley–Milner type systems and new technologies
+
+(article/interview, with links to podcast & video)
+
+- Federico Carrone
+- 2015/08/11
+- https://medium.com/this-is-not-a-monad-tutorial/eric-merritt-erlang-and-distributed-systems-expert-gives-his-views-on-beam-languages-hindley-a09b15f53a2f
+
