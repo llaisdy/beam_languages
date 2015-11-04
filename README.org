@@ -10,14 +10,14 @@ Thank you.
 
 ** Languages
 
-*** Erlang
+Erlang itelf, then the Lisp-influenced languages, then in alphabetical order.
+
+*** erlang
 
 - http://www.erlang.org/
 - https://github.com/erlang/otp
 
-*** Influenced by Lisp(s)
-
-**** joxa (2011+)
+*** joxa (2011+)
 
 - http://joxa.org/
 - https://github.com/joxa/joxa
@@ -35,29 +35,27 @@ Thank you.
 - 2012/08/22
 - https://vimeo.com/49116180
 
-**** lfe (2008+)
+*** lfe (2008+)
 
 - http://lfe.io/
 - https://github.com/rvirding/lfe
 
-**** 'the concurrent schemer' (2013+)
+*** 'the concurrent schemer' (2013+)
 
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** Influenced by Ruby
+*** efene (2009+)
 
-**** reia (-2011)
+- http://efene.org/
+- https://github.com/efene/efene
 
-- http://reia-lang.org/
-- https://github.com/tarcieri/reia
-
-**** elixir (2012+)
+*** elixir (2012+)
 
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
 
-*** Influenced by Prolog: erlog (2008+)
+*** erlog (2008+)
 
 - https://github.com/rvirding/erlog
 
@@ -67,9 +65,14 @@ Thank you.
 - 2009/03/18
 - http://rvirding.blogspot.co.uk/2009/03/backtracking-in-erlang-part-1-control.html
 
-*** Influenced by Lua: luerl (2012+)
+*** luerl (2012+)
 
 - https://github.com/rvirding/luerl
+
+*** reia (-2011)
+
+- http://reia-lang.org/
+- https://github.com/tarcieri/reia
 
 *** xerl (2013)
 
