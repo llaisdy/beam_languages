@@ -1,5 +1,7 @@
 * Languages, and about languages, on the BEAM
 
+** Overview
+
 This document is intended to list (a) languages implemented to run on the BEAM, the Erlang virtual machine, and (b) documents (articles & presentations) about the hows and whys of writing languages to run on the BEAM.
 
 For the moment, and for want of a better name, I call such languages "BEAM languages" (although I have heard that there are other Erlang VMs, ...).
@@ -54,6 +56,19 @@ Erlang itelf, then the Lisp-influenced languages, then in alphabetical order.
 
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
+
+*** erl2 (2012)
+
+- https://github.com/joearms/erl2
+
+- Announcement and ensuing discussion on erlang-questions
+  http://erlang.org/pipermail/erlang-questions/2012-February/064687.html
+
+- "A Few Improvements to Erlang" (EUC 2012)
+  http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/joearmstrong
+
+- A blog post about the above presentation in Chinese
+  http://www.cnblogs.com/me-sa/archive/2012/06/06/2538941.html
 
 *** erlog (2008+)
 
