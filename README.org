@@ -61,13 +61,13 @@ Erlang itelf, then the Lisp-influenced languages, then in alphabetical order.
 
 - https://github.com/joearms/erl2
 
-- Announcement and ensuing discussion on erlang-questions
+- Announcement and ensuing discussion on erlang-questions ::
   http://erlang.org/pipermail/erlang-questions/2012-February/064687.html
 
-- "A Few Improvements to Erlang" (EUC 2012)
+- "A Few Improvements to Erlang" (EUC 2012) ::
   http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/joearmstrong
 
-- A blog post about the above presentation in Chinese
+- A blog post about the above presentation in Chinese ::
   http://www.cnblogs.com/me-sa/archive/2012/06/06/2538941.html
 
 *** erlog (2008+)
