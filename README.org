@@ -80,6 +80,30 @@ Erlang itelf, then the Lisp-influenced languages, then in alphabetical order.
 - 2009/03/18
 - http://rvirding.blogspot.co.uk/2009/03/backtracking-in-erlang-part-1-control.html
 
+*** erlyjs (2008-2013?)
+
+The original repo (on Google Code) no longer exists, but there are several forks, e.g.:
+
+- https://github.com/KlausTrainer/erlyjs
+
+A couple of blog posts from 2008 (the second is by the original developer of erlyjs):
+
+- ErlyJS: JavaScript on Erlang ::
+  http://ajaxian.com/archives/erlyjs-javascript-on-erlang
+
+- ErlyJS - translating Javascript to Erlang ::
+  http://rsaccon.blogspot.co.uk/2008/02/erlyjs-translating-javascript-to-erlang.html
+
+*** haskerl et al. (1993-2014?)
+
+- https://github.com/etnt/Haskerl
+
+- The Haskerl Index ::
+  http://www.dcs.gla.ac.uk/~partain/haskerl.html
+
+- Yhc/Erlang/Proof of concept ::
+  https://wiki.haskell.org/Yhc/Erlang/Proof_of_concept
+
 *** luerl (2012+)
 
 - https://github.com/rvirding/luerl
