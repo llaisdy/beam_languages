@@ -57,6 +57,12 @@ Erlang itelf, then the Lisp-influenced languages, then in alphabetical order.
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
 
+*** eml (2012)
+
+"eml - Erlang flavored by Some ML"
+
+- https://github.com/etnt/eml
+
 *** erl2 (2012)
 
 - https://github.com/joearms/erl2
@@ -123,7 +129,7 @@ Five web articles in 2013 starting with:
 - "Xerl: empty modules"
 - http://ninenines.eu/articles/xerl-0.1-empty-modules/
 
-** About languages
+** About Languages
 
 *** Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem
 
@@ -160,4 +166,28 @@ Five web articles in 2013 starting with:
 - Federico Carrone
 - 2015/08/11
 - https://medium.com/this-is-not-a-monad-tutorial/eric-merritt-erlang-and-distributed-systems-expert-gives-his-views-on-beam-languages-hindley-a09b15f53a2f
+
+** Erlang and Types
+
+These first two papers are linked from Philip Wadler's erlang page: http://homepages.inf.ed.ac.uk/wadler/topics/erlang.html
+
+*** A practical subtyping system for Erlang
+
+(paper)
+- Simon Marlow & Philip Wadler 
+- 1997
+- http://homepages.inf.ed.ac.uk/wadler/papers/erlang/erlang.pdf
+
+*** The great type hope
+
+(slides)
+- Philip Wadler
+- 2002
+- http://homepages.inf.ed.ac.uk/wadler/papers/erlang/erlang-slides.pdf
+
+*** Om: Erlang System F-Omega (Erlang with Types Proposal)
+
+- Namdak Tonpa
+- 2013
+- https://github.com/5HT/om
 
