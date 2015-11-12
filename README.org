@@ -12,7 +12,7 @@ Thank you.
 
 ** Languages
 
-Erlang itelf, then the Lisp-influenced languages, then in alphabetical order.
+Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 
 *** erlang
 
@@ -109,6 +109,10 @@ A couple of blog posts from 2008 (the second is by the original developer of erl
 
 - Yhc/Erlang/Proof of concept ::
   https://wiki.haskell.org/Yhc/Erlang/Proof_of_concept
+
+*** interfix (2015)
+
+- https://github.com/marianoguerra/interfix
 
 *** luerl (2012+)
 
