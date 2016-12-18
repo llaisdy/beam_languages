@@ -52,7 +52,7 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 - http://efene.org/
 - https://github.com/efene/efene
 
-*** elixir (2012+)
+*** elixir (2011+)
 
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
