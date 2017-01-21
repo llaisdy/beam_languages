@@ -47,6 +47,10 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
+*** alpaca (2016+)
+
+- https://github.com/alpaca-lang/alpaca
+
 *** efene (2009+)
 
 - http://efene.org/
@@ -132,10 +136,6 @@ Five web articles in 2013 starting with:
 - 2013/01/30 
 - "Xerl: empty modules"
 - http://ninenines.eu/articles/xerl-0.1-empty-modules/
-
-*** Alpaca (2016+)
-
-- https://github.com/alpaca-lang/alpaca
 
 ** About Languages
 
