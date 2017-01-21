@@ -133,6 +133,10 @@ Five web articles in 2013 starting with:
 - "Xerl: empty modules"
 - http://ninenines.eu/articles/xerl-0.1-empty-modules/
 
+*** Alpaca (2016+)
+
+- https://github.com/alpaca-lang/alpaca
+
 ** About Languages
 
 *** Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem
