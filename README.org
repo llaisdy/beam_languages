@@ -25,13 +25,13 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 - https://github.com/joxa/joxa
 - https://joxa.readthedocs.org/
 
-***** Differences Between Joxa and LFE
+**** Differences Between Joxa and LFE
 
 - Eric Merritt
 - 2012/02/21
 - http://blog.ericbmerritt.com/2012/02/21/differences-between-joxa-and-lfe.html
 
-***** Joxa: A Full Featured Lisp on the Erlang VM
+**** Joxa: A Full Featured Lisp on the Erlang VM
 
 - Eric Merritt
 - 2012/08/22
@@ -84,16 +84,7 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 
 - https://github.com/rvirding/erlog
 
-*** puerl (2016+)
-
-Erlang backend for PureScript
-
-- Introducing PureScript Erlang ::
-  http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
-
-- https://github.com/purerl/purescript
-
-***** Backtracking in Erlang, part 1 - control
+**** Backtracking in Erlang, part 1 - control
 
 - Robert Virding
 - 2009/03/18
@@ -136,6 +127,15 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 *** luerl (2012+)
 
 - https://github.com/rvirding/luerl
+
+*** purerl (2016+)
+
+Erlang backend for PureScript
+
+- https://github.com/purerl/purescript
+
+- Introducing PureScript Erlang ::
+  http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
 
 *** reia (-2011)
 
