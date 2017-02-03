@@ -84,6 +84,15 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 
 - https://github.com/rvirding/erlog
 
+*** puerl (2016+)
+
+Erlang backend for PureScript
+
+- Introducing PureScript Erlang ::
+  http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
+
+- https://github.com/purerl/purescript
+
 ***** Backtracking in Erlang, part 1 - control
 
 - Robert Virding
