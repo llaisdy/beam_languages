@@ -47,9 +47,6 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** ephp (2013+)
-- https://github.com/bragful/ephp
-
 *** alpaca (2016+)
 
 - https://github.com/alpaca-lang/alpaca
@@ -69,6 +66,14 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 "eml - Erlang flavored by Some ML"
 
 - https://github.com/etnt/eml
+
+*** ephp (2013+)
+
+An erlang interpreter for PHP
+
+- https://github.com/bragful/ephp
+
+Presumably as used by [[https://bragful.com][Bragful]] --- "A resilient and scalable PHP".
 
 *** erl2 (2012)
 
