@@ -75,6 +75,12 @@ An erlang interpreter for PHP
 
 Presumably as used by [[https://bragful.com][Bragful]] --- "A resilient and scalable PHP".
 
+*** clojerl (2015+)
+
+clojerl - Clojure for the Erlang VM
+
+- https://github.com/jfacorro/clojerl
+
 *** erl2 (2012)
 
 - https://github.com/joearms/erl2
