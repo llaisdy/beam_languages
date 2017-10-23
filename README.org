@@ -47,6 +47,12 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
+*** fez (2017+)
+
+fez - fsharp to core erlang compiler experiment
+
+- https://github.com/kjnilsson/fez
+
 *** clojerl (2015+)
 
 clojerl - Clojure for the Erlang VM
