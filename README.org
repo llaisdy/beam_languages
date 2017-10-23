@@ -47,12 +47,6 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** fez (2017+)
-
-fez - fsharp to core erlang compiler experiment
-
-- https://github.com/kjnilsson/fez
-
 *** clojerl (2015+)
 
 clojerl - Clojure for the Erlang VM
@@ -123,6 +117,12 @@ A couple of blog posts from 2008 (the second is by the original developer of erl
 
 - ErlyJS - translating Javascript to Erlang ::
   http://rsaccon.blogspot.co.uk/2008/02/erlyjs-translating-javascript-to-erlang.html
+
+*** fez (2017+)
+
+fez - fsharp to core erlang compiler experiment
+
+- https://github.com/kjnilsson/fez
 
 *** haskerl et al. (1993-2014?)
 
