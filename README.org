@@ -62,6 +62,12 @@ clojerl - Clojure for the Erlang VM
 - http://efene.org/
 - https://github.com/efene/efene
 
+*** elchemy (2017+)
+
+An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into ELixir source code).
+
+- https://github.com/wende/elchemy
+
 *** elixir (2011+)
 
 - http://elixir-lang.org/
