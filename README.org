@@ -150,6 +150,10 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 
 - https://github.com/marianoguerra/interfix
 
+*** kapok (2015+)
+
+- https://github.com/kapok-lang/kapok
+
 *** luerl (2012+)
 
 - https://github.com/rvirding/luerl
