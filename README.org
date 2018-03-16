@@ -19,42 +19,43 @@ Thank you.
 
 ** Languages
 
-Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
+Erlang itself, then the Lisp-influenced languages, then the rest in alphabetical order.
 
-*** erlang
+*** Erlang
 
 - http://www.erlang.org/
 - https://github.com/erlang/otp
 
-*** joxa (2011+)
+*** Lisps
+**** lfe (2008+)
+
+- http://lfe.io/
+- https://github.com/rvirding/lfe
+
+**** joxa (2011+)
 
 - http://joxa.org/
 - https://github.com/joxa/joxa
 - https://joxa.readthedocs.org/
 
-**** Differences Between Joxa and LFE
+***** Differences Between Joxa and LFE
 
 - Eric Merritt
 - 2012/02/21
 - http://blog.ericbmerritt.com/2012/02/21/differences-between-joxa-and-lfe.html
 
-**** Joxa: A Full Featured Lisp on the Erlang VM
+***** Joxa: A Full Featured Lisp on the Erlang VM
 
 - Eric Merritt
 - 2012/08/22
 - https://vimeo.com/49116180
 
-*** lfe (2008+)
-
-- http://lfe.io/
-- https://github.com/rvirding/lfe
-
-*** 'the concurrent schemer' (2013+)
+**** 'the concurrent schemer' (2013+)
 
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** clojerl (2015+)
+**** clojerl (2015+)
 
 clojerl - Clojure for the Erlang VM
 
@@ -62,33 +63,34 @@ clojerl - Clojure for the Erlang VM
 - http://try.clojerl.online/
 - https://github.com/jfacorro/clojerl
 
-*** alpaca (2016+)
+*** etc
+**** alpaca (2016+)
 
 - https://github.com/alpaca-lang/alpaca
 
-*** efene (2009+)
+**** efene (2009+)
 
 - http://efene.org/
 - https://github.com/efene/efene
 
-*** elchemy (2017+)
+**** elchemy (2017+)
 
 An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into ELixir source code).
 
 - https://github.com/wende/elchemy
 
-*** elixir (2011+)
+**** elixir (2011+)
 
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
 
-*** eml (2012)
+**** eml (2012)
 
 "eml - Erlang flavored by Some ML"
 
 - https://github.com/etnt/eml
 
-*** ephp (2013+)
+**** ephp (2013+)
 
 An erlang interpreter for PHP
 
@@ -96,7 +98,7 @@ An erlang interpreter for PHP
 
 Presumably as used by [[https://bragful.com][Bragful]] --- "A resilient and scalable PHP".
 
-*** erl2 (2012)
+**** erl2 (2012)
 
 - https://github.com/joearms/erl2
 
@@ -109,17 +111,17 @@ Presumably as used by [[https://bragful.com][Bragful]] --- "A resilient and scal
 - A blog post about the above presentation in Chinese ::
   http://www.cnblogs.com/me-sa/archive/2012/06/06/2538941.html
 
-*** erlog (2008+)
+**** erlog (2008+)
 
 - https://github.com/rvirding/erlog
 
-**** Backtracking in Erlang, part 1 - control
+***** Backtracking in Erlang, part 1 - control
 
 - Robert Virding
 - 2009/03/18
 - http://rvirding.blogspot.co.uk/2009/03/backtracking-in-erlang-part-1-control.html
 
-*** erlyjs (2008-2013?)
+**** erlyjs (2008-2013?)
 
 The original repo (on Google Code) no longer exists, but there are several forks, e.g.:
 
@@ -133,13 +135,13 @@ A couple of blog posts from 2008 (the second is by the original developer of erl
 - ErlyJS - translating Javascript to Erlang ::
   http://rsaccon.blogspot.co.uk/2008/02/erlyjs-translating-javascript-to-erlang.html
 
-*** fez (2017+)
+**** fez (2017+)
 
 fez - fsharp to core erlang compiler experiment
 
 - https://github.com/kjnilsson/fez
 
-*** haskerl et al. (1993-2014?)
+**** haskerl et al. (1993-2014?)
 
 - https://github.com/etnt/Haskerl
 
@@ -149,25 +151,25 @@ fez - fsharp to core erlang compiler experiment
 - Yhc/Erlang/Proof of concept ::
   https://wiki.haskell.org/Yhc/Erlang/Proof_of_concept
 
-*** idris-erlang (2014-15)
+**** idris-erlang (2014-15)
 
 - https://github.com/lenary/idris-erlang
 
 This is an Idris package (therefore requiring Haskell and Idris) which compiles Idris source code into erlang source code.  
 
-*** interfix (2015)
+**** interfix (2015)
 
 - https://github.com/marianoguerra/interfix
 
-*** kapok (2015+)
+**** kapok (2015+)
 
 - https://github.com/kapok-lang/kapok
 
-*** luerl (2012+)
+**** luerl (2012+)
 
 - https://github.com/rvirding/luerl
 
-*** purerl (2016+)
+**** purerl (2016+)
 
 Erlang backend for PureScript
 
@@ -176,12 +178,12 @@ Erlang backend for PureScript
 - Introducing PureScript Erlang ::
   http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
 
-*** reia (-2011)
+**** reia (-2011)
 
 - http://reia-lang.org/
 - https://github.com/tarcieri/reia
 
-*** xerl (2013)
+**** xerl (2013)
 
 - https://github.com/extend/xerl
 
