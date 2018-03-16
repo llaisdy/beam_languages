@@ -51,6 +51,8 @@ Erlang itself, then the Lisp-influenced languages, then in alphabetical order.
 
 clojerl - Clojure for the Erlang VM
 
+- http://clojerl.org/
+- http://try.clojerl.online/
 - https://github.com/jfacorro/clojerl
 
 *** alpaca (2016+)
