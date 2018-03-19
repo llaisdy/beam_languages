@@ -75,7 +75,7 @@ clojerl - Clojure for the Erlang VM
 
 **** elchemy (2017+)
 
-An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into ELixir source code).
+An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into Elixir source code).
 
 - https://github.com/wende/elchemy
 
