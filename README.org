@@ -68,6 +68,12 @@ clojerl - Clojure for the Erlang VM
 
 - https://github.com/alpaca-lang/alpaca
 
+**** cuneiform (2013+)
+
+- https://cuneiform-lang.org
+- https://github.com/joergen7/cuneiform
+- https://en.wikipedia.org/wiki/Cuneiform_(programming_language)
+
 **** efene (2009+)
 
 - http://efene.org/
