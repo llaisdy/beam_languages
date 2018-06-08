@@ -5,6 +5,7 @@
   - [[#overview][Overview]]
   - [[#languages][Languages]]
   - [[#about-languages][About Languages]]
+  - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
 
 ** Overview
@@ -201,33 +202,34 @@ Five web articles in 2013 starting with:
 
 ** About Languages
 
-*** Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem
-
-(slides)
-- Brian Troutwine
-- 2014/07/23
-- http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014
-
-*** Implementing Languages on the BEAM (1)
+*** Implementing languages on the BEAM (4)
 
 (video)
-- Robert Virding
-- 2014/10/29 (London Erlang UG)
-- https://www.youtube.com/watch?v=qm0mbQbc9Kc
+- Robert Virding & Mariano Guerra
+- 2018/05/17 (Erlang Solutions Webinar)
+- https://www.youtube.com/watch?v=0MTiqI9v-ck
 
-*** Implementing Languages on the BEAM (2)
+*** Implementing languages on the BEAM (3)
+
+(video)
+- Robert Virding & Mariano Guerra
+- 2018/03/06 (CodeBEAM SF)
+- https://www.youtube.com/watch?v=lkAbwmn5Rv8
+
+*** Efene and the BEAM Community
 
 (slides & video)
-- Robert Virding
-- 2014/11/04 (Codemesh 2014)
-- http://www.codemesh.io/codemesh2014/robert-virding
+- Mariano Guerra
+- 2017/06/06 (EUC)
+- http://www.erlang-factory.com/euc2017/mariano-guerra
 
-*** Create Your Own Language: How to implement a language on top of Erlang Virtual Machine (BEAM)
+*** How BEAMs are made
 
-(slides)
-- Hamidreza Soleimani
-- 2015/08/06
-- https://drive.google.com/file/d/0B9D6BzMBVYONR0ZzV3pTb3N4bms/view?pli=1
+Slides with link to github repo
+
+- Mariano Guerra
+- 2016/10 (BEAM BA Meetup)
+- http://marianoguerra.org/talks/beamba-buenos-aires-meetup/#/how-beams-are-made
 
 *** Eric Merritt, Erlang and distributed systems expert, gives his views on BEAM languages, Hindley–Milner type systems and new technologies
 
@@ -236,6 +238,47 @@ Five web articles in 2013 starting with:
 - Federico Carrone
 - 2015/08/11
 - https://medium.com/this-is-not-a-monad-tutorial/eric-merritt-erlang-and-distributed-systems-expert-gives-his-views-on-beam-languages-hindley-a09b15f53a2f
+
+*** Create Your Own Language: How to implement a language on top of Erlang Virtual Machine (BEAM)
+
+(slides)
+- Hamidreza Soleimani
+- 2015/08/06
+- https://drive.google.com/file/d/0B9D6BzMBVYONR0ZzV3pTb3N4bms/view?pli=1
+
+*** Implementing Languages on the BEAM (2)
+
+(slides & video)
+- Robert Virding
+- 2014/11/04 (Codemesh 2014)
+- http://www.codemesh.io/codemesh2014/robert-virding
+
+*** Implementing Languages on the BEAM (1)
+
+(video)
+- Robert Virding
+- 2014/10/29 (London Erlang UG)
+- https://www.youtube.com/watch?v=qm0mbQbc9Kc
+
+*** Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem
+
+(slides)
+- Brian Troutwine
+- 2014/07/23
+- http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014
+
+
+** About the BEAM
+
+*** The BEAM Book
+
+A description of the Erlang Runtime System ERTS and the virtual Machine BEAM
+https://github.com/happi/theBeamBook
+
+*** The BEAM Toolbox
+
+A list of tools and libraries that are useful for BEAM languages like efene, erlang, LFE and Elixir projects.
+http://efene.org/toolbox.html
 
 ** Erlang and Types
 
