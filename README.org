@@ -267,7 +267,6 @@ Slides with link to github repo
 - 2014/07/23
 - http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014
 
-
 ** About the BEAM
 
 *** The BEAM Book
@@ -304,3 +303,10 @@ These first two papers are linked from Philip Wadler's erlang page: http://homep
 - 2013
 - https://github.com/5HT/om
 
+*** Gradualizer: A Gradual Type System for Erlang
+
+A gradual typing system and static code analysis tool for Erlang.
+
+The type system is based on "Gradual Typing for Functional Languages" (Siek & Taha, 2006) (see `doc/GTLC.hs`):
+
+- http://scheme2006.cs.uchicago.edu/13-siek.pdf.
