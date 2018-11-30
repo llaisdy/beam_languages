@@ -307,6 +307,6 @@ These first two papers are linked from Philip Wadler's erlang page: http://homep
 
 A gradual typing system and static code analysis tool for Erlang.
 
-The type system is based on "Gradual Typing for Functional Languages" (Siek & Taha, 2006) (see `doc/GTLC.hs`):
+The type system is based on "Gradual Typing for Functional Languages" (Siek & Taha, 2006) (see doc/GTLC.hs):
 
 - http://scheme2006.cs.uchicago.edu/13-siek.pdf.
