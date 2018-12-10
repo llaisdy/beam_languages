@@ -91,6 +91,10 @@ An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
 
+**** gleam (2016)
+
+- https://github.com/lpil/gleam
+
 **** eml (2012)
 
 "eml - Erlang flavored by Some ML"
