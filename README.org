@@ -91,10 +91,6 @@ An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into
 - http://elixir-lang.org/
 - https://github.com/elixir-lang/elixir
 
-**** gleam (2016)
-
-- https://github.com/lpil/gleam
-
 **** eml (2012)
 
 "eml - Erlang flavored by Some ML"
@@ -151,6 +147,12 @@ A couple of blog posts from 2008 (the second is by the original developer of erl
 fez - fsharp to core erlang compiler experiment
 
 - https://github.com/kjnilsson/fez
+
+**** gleam (2016+)
+
+gleam - "A statically typed language for the Erlang VM"
+
+- https://github.com/lpil/gleam
 
 **** haskerl et al. (1993-2014?)
 
