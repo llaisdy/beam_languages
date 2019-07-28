@@ -187,6 +187,7 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 Erlang backend for PureScript
 
 - https://github.com/purerl/purescript
+- https://purerl.fun/
 
 - Introducing PureScript Erlang ::
   http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
@@ -202,9 +203,8 @@ Erlang backend for PureScript
 
 Five web articles in 2013 starting with:
 
-- 2013/01/30 
-- "Xerl: empty modules"
-- http://ninenines.eu/articles/xerl-0.1-empty-modules/
+- Xerl: empty modules (2013/01/30) ::
+  http://ninenines.eu/articles/xerl-0.1-empty-modules/
 
 ** About Languages
 
