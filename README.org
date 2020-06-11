@@ -210,6 +210,13 @@ Five web articles in 2013 starting with:
 - Xerl: empty modules (2013/01/30) ::
   http://ninenines.eu/articles/xerl-0.1-empty-modules/
 
+**** hamler (2020)
+
+Haskell-style functional programming language running on Erlang VM.
+
+- https://github.com/hamler-lang/hamler
+- https://hamler-lang.org/
+
 ** About Languages
 
 *** Implementing languages on the BEAM (4)
