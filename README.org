@@ -160,7 +160,8 @@ fez - fsharp to core erlang compiler experiment
 
 gleam - "A statically typed language for the Erlang VM"
 
-- https://github.com/lpil/gleam
+- https://gleam.run
+- https://github.com/gleam-lang/gleam
 
 **** hamler (2020)
 
@@ -197,7 +198,7 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 
 Erlang backend for PureScript
 
-- https://github.com/purerl/purescript
+- https://github.com/purerl/purerl
 - https://purerl.fun/
 
 - Introducing PureScript Erlang ::
