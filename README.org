@@ -20,7 +20,7 @@ Thank you.
 
 ** Languages (28)
 
-Erlang itself, then the Lisp-influenced languages, then the statically-typed languages, then all the others.  Including Erlang, that's 28 languages in all.
+Erlang itself, then the 5 [[lisps-5][Lisp-influenced]] languages, then the 10 [[statically-typed-languages-10][statically-typed]] languages, then the 12 [[etc-12][others]].  Including Erlang, that's 28 languages in all.
 
 *** erlang itself (1)
 
