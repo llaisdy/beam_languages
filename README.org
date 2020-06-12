@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#languages][Languages]]
+  - [[#languages-28][Languages (28)]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,16 +18,16 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** Languages
+** Languages (28)
 
-Erlang itself, then the Lisp-influenced languages, then the rest in alphabetical order.
+Erlang itself, then the Lisp-influenced languages, then the statically-typed languages, then all the others.  Including Erlang, that's 28 languages in all.
 
-*** Erlang
+*** erlang itself (1)
 
 - http://www.erlang.org/
 - https://github.com/erlang/otp
 
-*** Lisps
+*** lisps (5)
 **** clojerl (2015+)
 
 clojerl - Clojure for the Erlang VM
@@ -68,7 +68,7 @@ clojerl - Clojure for the Erlang VM
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** etc
+*** statically-typed languages (10)
 **** alpaca (2016+)
 
 - https://github.com/alpaca-lang/alpaca
@@ -79,27 +79,75 @@ clojerl - Clojure for the Erlang VM
 - https://github.com/joergen7/cuneiform
 - https://en.wikipedia.org/wiki/Cuneiform_(programming_language)
 
-**** efene (2009+)
-
-- http://efene.org/
-- https://github.com/efene/efene
-
 **** elchemy (2017+)
 
 An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into Elixir source code).
 
+- https://wende.github.io/elchemy/
 - https://github.com/wende/elchemy
-
-**** elixir (2011+)
-
-- http://elixir-lang.org/
-- https://github.com/elixir-lang/elixir
 
 **** eml (2012)
 
 "eml - Erlang flavored by Some ML"
 
 - https://github.com/etnt/eml
+
+**** fez (2017+)
+
+fez - fsharp to core erlang compiler experiment
+
+- https://github.com/kjnilsson/fez
+
+**** gleam (2016+)
+
+gleam - "A statically typed language for the Erlang VM"
+
+- https://gleam.run
+- https://github.com/gleam-lang/gleam
+
+**** hamler (2020)
+
+Haskell-style functional programming language running on Erlang VM.
+
+- https://github.com/hamler-lang/hamler
+- https://hamler-lang.org/
+
+**** haskerl et al. (1993-2014)
+
+- https://github.com/etnt/Haskerl
+
+- The Haskerl Index ::
+  http://www.dcs.gla.ac.uk/~partain/haskerl.html
+
+- Yhc/Erlang/Proof of concept ::
+  https://wiki.haskell.org/Yhc/Erlang/Proof_of_concept
+
+**** idris-erlang (2014-17)
+
+- https://github.com/lenary/idris-erlang
+
+This is an Idris package (therefore requiring Haskell and Idris) which compiles Idris source code into erlang source code.
+
+**** purerl (2016+)
+
+Erlang backend for PureScript
+
+- https://github.com/purerl/purerl
+- https://purerl.fun/
+
+- Introducing PureScript Erlang ::
+  http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
+
+*** etc (12)
+**** efene (2009+)
+
+- http://efene.org/
+- https://github.com/efene/efene
+
+**** elixir (2011+)
+
+- http://elixir-lang.org/
+- https://github.com/elixir-lang/elixir
 
 **** ephp (2013+)
 
@@ -146,45 +194,9 @@ A couple of blog posts from 2008 (the second is by the original developer of erl
 - ErlyJS - translating Javascript to Erlang ::
   http://rsaccon.blogspot.co.uk/2008/02/erlyjs-translating-javascript-to-erlang.html
 
-**** fez (2017+)
-
-fez - fsharp to core erlang compiler experiment
-
-- https://github.com/kjnilsson/fez
-
 **** ffe: Forth-flavoured Erlang (2014-2016)
 
 - https://github.com/tonyrog/ffe
-
-**** gleam (2016+)
-
-gleam - "A statically typed language for the Erlang VM"
-
-- https://gleam.run
-- https://github.com/gleam-lang/gleam
-
-**** hamler (2020)
-
-Haskell-style functional programming language running on Erlang VM.
-
-- https://github.com/hamler-lang/hamler
-- https://hamler-lang.org/
-
-**** haskerl et al. (1993-2014)
-
-- https://github.com/etnt/Haskerl
-
-- The Haskerl Index ::
-  http://www.dcs.gla.ac.uk/~partain/haskerl.html
-
-- Yhc/Erlang/Proof of concept ::
-  https://wiki.haskell.org/Yhc/Erlang/Proof_of_concept
-
-**** idris-erlang (2014-17)
-
-- https://github.com/lenary/idris-erlang
-
-This is an Idris package (therefore requiring Haskell and Idris) which compiles Idris source code into erlang source code.  
 
 **** interfix (2015)
 
@@ -194,22 +206,12 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 
 - https://github.com/rvirding/luerl
 
-**** OTPCL
+**** OTPCL (2017+)
 
 Open Telecom Platform Command Language: "a scripting language designed to integrate with and extend applications written in BEAM-based languages"
 
 - https://otpcl.github.io/
 - https://github.com/otpcl/otpcl
-
-**** purerl (2016+)
-
-Erlang backend for PureScript
-
-- https://github.com/purerl/purerl
-- https://purerl.fun/
-
-- Introducing PureScript Erlang ::
-  http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
 
 **** reia (-2012)
 
