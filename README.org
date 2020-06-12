@@ -162,6 +162,13 @@ gleam - "A statically typed language for the Erlang VM"
 
 - https://github.com/lpil/gleam
 
+**** hamler (2020)
+
+Haskell-style functional programming language running on Erlang VM.
+
+- https://github.com/hamler-lang/hamler
+- https://hamler-lang.org/
+
 **** haskerl et al. (1993-2014)
 
 - https://github.com/etnt/Haskerl
@@ -209,13 +216,6 @@ Five web articles in 2013 starting with:
 
 - Xerl: empty modules (2013/01/30) ::
   http://ninenines.eu/articles/xerl-0.1-empty-modules/
-
-**** hamler (2020)
-
-Haskell-style functional programming language running on Erlang VM.
-
-- https://github.com/hamler-lang/hamler
-- https://hamler-lang.org/
 
 ** About Languages
 
