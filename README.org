@@ -194,6 +194,13 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 
 - https://github.com/rvirding/luerl
 
+**** OTPCL
+
+Open Telecom Platform Command Language: "a scripting language designed to integrate with and extend applications written in BEAM-based languages"
+
+- https://otpcl.github.io/
+- https://github.com/otpcl/otpcl
+
 **** purerl (2016+)
 
 Erlang backend for PureScript
