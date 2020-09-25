@@ -327,11 +327,12 @@ These first two papers are linked from Philip Wadler's erlang page: http://homep
 - 2002
 - http://homepages.inf.ed.ac.uk/wadler/papers/erlang/erlang-slides.pdf
 
-*** Om: Erlang System F-Omega (Erlang with Types Proposal)
+*** Pure Type System for Erlang
 
 - Namdak Tonpa
 - 2013
-- https://github.com/5HT/om
+- Paper: http://aip.scitation.org/doi/pdf/10.1063/1.5045439
+- Code: https://github.com/groupoid/pure
 
 *** Gradualizer: A Gradual Type System for Erlang
 
