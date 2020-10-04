@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#languages-28][Languages (28)]]
+  - [[#languages-29][Languages (29)]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,12 +18,12 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** Languages (28)
+** Languages (29)
 
 First Erlang itself,
  then the 5 [[#lisps-5][Lisp-influenced]] languages,
- then the 10 [[#statically-typed-languages-10][statically-typed]] languages,
- then the 12 [[#etc-12][others]].  Including Erlang, that's 28 languages in all.
+ then the 11 [[#statically-typed-languages-11][statically-typed]] languages,
+ then the 12 [[#etc-12][others]].  Including Erlang, that's 29 languages in all.
 
 *** erlang itself (1)
 
@@ -71,7 +71,7 @@ clojerl - Clojure for the Erlang VM
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** statically-typed languages (10)
+*** statically-typed languages (11)
 **** alpaca (2016+)
 
 - https://github.com/alpaca-lang/alpaca
@@ -100,6 +100,12 @@ An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into
 fez - fsharp to core erlang compiler experiment
 
 - https://github.com/kjnilsson/fez
+
+**** fika (2020)
+
+A statically typed functional programming language for the web
+
+- https://github.com/fika-lang/fika
 
 **** gleam (2016+)
 
