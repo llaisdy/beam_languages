@@ -230,6 +230,12 @@ Five web articles in 2013 starting with:
 - Xerl: empty modules (2013/01/30) ::
   http://ninenines.eu/articles/xerl-0.1-empty-modules/
 
+**** fika (2020)
+
+- https://github.com/fika-lang/fika
+
+A statically typed functional programming language for the web
+
 ** About Languages
 
 *** Implementing languages on the BEAM (4)
