@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#languages-29][Languages (29)]]
+  - [[#languages-30][Languages (30)]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,19 +18,19 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** Languages (29)
+** Languages (30)
 
 First Erlang itself,
- then the 5 [[#lisps-5][Lisp-influenced]] languages,
- then the 11 [[#statically-typed-languages-11][statically-typed]] languages,
- then the 12 [[#etc-12][others]].  Including Erlang, that's 29 languages in all.
+ then the  5 [[#lisps][Lisp-influenced]] languages,
+ then the 12 [[#statically-typed-languages][statically-typed]] languages,
+ then the 12 [[#etc][others]].  Including Erlang, that's 30 languages in all.
 
-*** erlang itself (1)
+*** erlang itself
 
 - http://www.erlang.org/
 - https://github.com/erlang/otp
 
-*** lisps (5)
+*** lisps
 **** clojerl (2015+)
 
 clojerl - Clojure for the Erlang VM
@@ -71,10 +71,17 @@ clojerl - Clojure for the Erlang VM
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
-*** statically-typed languages (11)
+*** statically-typed languages
 **** alpaca (2016+)
 
 - https://github.com/alpaca-lang/alpaca
+
+**** caramel (2020?+)
+
+An Erlang backend to the OCaml compiler
+
+- https://caramel.abstractmachines.dev/
+- https://github.com/AbstractMachinesLab/caramel
 
 **** cuneiform (2013+)
 
@@ -147,7 +154,7 @@ Erlang backend for PureScript
 - Introducing PureScript Erlang ::
   http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
 
-*** etc (12)
+*** etc
 **** efene (2009+)
 
 - http://efene.org/
