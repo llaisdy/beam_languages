@@ -154,6 +154,12 @@ Erlang backend for PureScript
 - Introducing PureScript Erlang ::
   http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
 
+**** sesterl (2020+)
+
+An ML-inspired statically-typed Erlang
+
+- https://github.com/gfngfn/Sesterl
+
 *** etc
 **** efene (2009+)
 
