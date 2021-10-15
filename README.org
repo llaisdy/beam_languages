@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#languages-30][Languages (30)]]
+  - [[#32-languages-on-the-beam][32 Languages on the BEAM]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,12 +18,12 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** Languages (30)
+** 32 Languages on the BEAM
 
 First Erlang itself,
  then the  5 [[#lisps][Lisp-influenced]] languages,
- then the 12 [[#statically-typed-languages][statically-typed]] languages,
- then the 12 [[#etc][others]].  Including Erlang, that's 30 languages in all.
+ then the 14 [[#statically-typed-languages][statically-typed]] languages,
+ then the 12 [[#etc][others]].  Including Erlang, that's 32 languages in all.
 
 *** erlang itself
 
@@ -146,6 +146,8 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 
 **** idris2-erlang (2020+)
 
+An Erlang code generator for Idris 2 (eg compiles Idris 2 programs to Erlang source code or to BEAM).
+
 - https://github.com/chrrasmussen/Idris2-Erlang
 
 **** purerl (2016+)
@@ -160,9 +162,12 @@ Erlang backend for PureScript
 
 **** sesterl (2020+)
 
-An ML-inspired statically-typed Erlang
+A "Session-Typed Erlang", an ML-inspired statically-typed Erlang
 
 - https://github.com/gfngfn/Sesterl
+
+- [[https://github.com/gfngfn/the_sesterl_book][The Sesterl Book]]
+- [[https://blog.michallepicki.com/notes-on-using-sesterl.html][Notes on using Sesterl]]
 
 *** etc
 **** efene (2009+)
@@ -367,12 +372,11 @@ The type system is based on "Gradual Typing for Functional Languages" (Siek & Ta
 
 - http://scheme2006.cs.uchicago.edu/13-siek.pdf.
 
-*** Bidirectional typing for Erlang
+*** Bidirectional typing for Erlang (2021)
 
 Erlang Type Checker Prototype Based on Bidirectional Typechecking.
 
 - Nithin Vadukkumchery Rajendrakumar, Annette Bieniusa
-- 2021
 - Paper: https://dl.acm.org/doi/10.1145/3471871.3472966
 - Video: https://youtube.com/watch?v=MAerjPQUKQQ
 - Code: https://github.com/vrnithinkumar/ETC
