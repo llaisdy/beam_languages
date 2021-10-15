@@ -356,3 +356,13 @@ A gradual typing system and static code analysis tool for Erlang.
 The type system is based on "Gradual Typing for Functional Languages" (Siek & Taha, 2006) (see doc/GTLC.hs):
 
 - http://scheme2006.cs.uchicago.edu/13-siek.pdf.
+
+*** Bidirectional typing for Erlang
+
+Erlang Type Checker Prototype Based on Bidirectional Typechecking.
+
+- Nithin Vadukkumchery Rajendrakumar, Annette Bieniusa
+- 2021
+- Paper: https://dl.acm.org/doi/10.1145/3471871.3472966
+- Video: https://youtube.com/watch?v=MAerjPQUKQQ
+- Code: https://github.com/vrnithinkumar/ETC
