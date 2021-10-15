@@ -144,6 +144,10 @@ Haskell-style functional programming language running on Erlang VM.
 
 This is an Idris package (therefore requiring Haskell and Idris) which compiles Idris source code into erlang source code.
 
+**** idris2-erlang (2020+)
+
+- https://github.com/chrrasmussen/Idris2-Erlang
+
 **** purerl (2016+)
 
 Erlang backend for PureScript
