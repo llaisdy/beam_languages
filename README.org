@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#32-languages-on-the-beam][32 Languages on the BEAM]]
+  - [[#33-languages-on-the-beam][33 Languages on the BEAM]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,12 +18,13 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** 32 Languages on the BEAM
+** 33 Languages on the BEAM
 
 First Erlang itself,
  then the  5 [[#lisps][Lisp-influenced]] languages,
- then the 14 [[#statically-typed-languages][statically-typed]] languages,
- then the 12 [[#etc][others]].  Including Erlang, that's 32 languages in all.
+ then the 15 [[#statically-typed-languages][statically-typed]] languages,
+ then the 12 [[#etc][others]].  Including Erlang,
+ that's   33 languages in all.
 
 *** erlang itself
 
@@ -159,6 +160,18 @@ Erlang backend for PureScript
 
 - Introducing PureScript Erlang ::
   http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
+
+**** rufus (2018+)
+
+"A general-purpose programming language for the BEAM"
+
+- https://github.com/rufus-lang/rufus
+
+There's website source, but no website.  Some docs, eg here:
+
+- https://github.com/rufus-lang/rufus/blob/main/rufus-lang.org/public/doc/spec.md
+
+Looks like it's implemented in erlang too!
 
 **** sesterl (2020+)
 
