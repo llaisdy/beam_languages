@@ -385,6 +385,12 @@ The type system is based on "Gradual Typing for Functional Languages" (Siek & Ta
 
 - http://scheme2006.cs.uchicago.edu/13-siek.pdf.
 
+*** ErlT - experimental erlang dialect (2021)
+
+Facebook's abandoned project to add first-class support for static typing to erlang.  Github repo archived and read-only.
+
+- https://github.com/WhatsApp/erlt
+
 *** Bidirectional typing for Erlang (2021)
 
 Erlang Type Checker Prototype Based on Bidirectional Typechecking.
