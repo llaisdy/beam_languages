@@ -315,7 +315,7 @@ Slides with link to github repo
 (slides)
 - Hamidreza Soleimani
 - 2015/08/06
-- https://drive.google.com/file/d/0B9D6BzMBVYONR0ZzV3pTb3N4bms/view?pli=1
+- https://www.slideshare.net/hamidreza-s/create-your-own-language
 
 *** Implementing Languages on the BEAM (2)
 
