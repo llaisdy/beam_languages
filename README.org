@@ -181,6 +181,7 @@ A "Session-Typed Erlang", an ML-inspired statically-typed Erlang
 
 - [[https://github.com/gfngfn/the_sesterl_book][The Sesterl Book]]
 - [[https://blog.michallepicki.com/notes-on-using-sesterl.html][Notes on using Sesterl]]
+- [[https://github.com/gfngfn/game_tianjiupai][Sample game reference based on Elm and Sesterl]]
 
 *** etc
 **** efene (2009+)
