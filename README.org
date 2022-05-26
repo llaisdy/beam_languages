@@ -81,7 +81,7 @@ clojerl - Clojure for the Erlang VM
 
 An Erlang backend to the OCaml compiler
 
-- https://caramel.abstractmachines.dev/
+- https://caramel.run/
 - https://github.com/AbstractMachinesLab/caramel
 
 **** cuneiform (2013+)
