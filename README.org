@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#33-languages-on-the-beam][33 Languages on the BEAM]]
+  - [[#34-languages-on-the-beam][34 Languages on the BEAM]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,13 +18,13 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** 33 Languages on the BEAM
+** 34 Languages on the BEAM
 
 First Erlang itself,
  then the  5 [[#lisps][Lisp-influenced]] languages,
  then the 15 [[#statically-typed-languages][statically-typed]] languages,
- then the 12 [[#etc][others]].  Including Erlang,
- that's   33 languages in all.
+ then the 13 [[#etc][others]].  Including Erlang,
+ that's   34 languages in all.
 
 *** erlang itself
 
@@ -262,6 +262,14 @@ Open Telecom Platform Command Language: "a scripting language designed to integr
 
 - http://reia-lang.org/
 - https://github.com/tarcieri/reia
+
+**** template_compiler (2016-)
+
+This compiler is a complete rewrite of the Erlang Django (ErlyDTL) template language fork used in Zotonic. In contrast with ErlyDTL
+the template_compiler generates small Erlang modules which are shared between different templates and sites.
+
+- https://github.com/zotonic/template_compiler
+- https://test.zotonic.com/page/1352/templates
 
 **** xerl (2013)
 
