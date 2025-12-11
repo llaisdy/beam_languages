@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#34-languages-on-the-beam][34 Languages on the BEAM]]
+  - [[#54-languages-on-the-beam][54 Languages on the BEAM]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,13 +18,15 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** 34 Languages on the BEAM
+** 54 Languages on the BEAM
 
 First Erlang itself,
- then the  5 [[#lisps][Lisp-influenced]] languages,
- then the 15 [[#statically-typed-languages][statically-typed]] languages,
- then the 13 [[#etc][others]].  Including Erlang,
- that's   34 languages in all.
+ then the  6 main [[#lisps][Lisp-influenced]] languages,
+ then the 22 [[#statically-typed-languages][statically-typed]] languages,
+ then the 25 [[#etc][others]].  Adding Erlang,
+ that's   54 languages in all.
+
+In the latest update (December 2025), there are now too many lisps implemented in erlang and (mostly) elixir in github to count.  There are also quite a few language projects I missed earlier.  Projects which haven't been updated since 2018 I haven't always included.  Many languages I didn't include here are in  [[https://github.com/stars/michallepicki/lists/beam-languages][Michał Łępicki's beam languages]] list.
 
 *** erlang itself
 
@@ -40,7 +42,18 @@ clojerl - Clojure for the Erlang VM
 - http://try.clojerl.online/
 - https://github.com/clojerl/clojerl
 
-**** joxa (2011+)
+**** lfe (2008+)
+
+- http://lfe.io/
+- https://github.com/lfe/lfe
+
+**** erlscheme (-2025)
+
+" An implementation of the Scheme programming language for the Erlang/OTP VM."
+
+- https://github.com/mikpe/erlscheme
+
+**** joxa (2011-2020)
 
 - http://joxa.org/
 - https://github.com/joxa/joxa
@@ -62,17 +75,18 @@ clojerl - Clojure for the Erlang VM
 
 - https://github.com/kapok-lang/kapok
 
-**** lfe (2008+)
-
-- http://lfe.io/
-- https://github.com/rvirding/lfe
-
 **** 'the concurrent schemer' (2013-2014)
 
 - http://the-concurrent-schemer.github.io/scm-doc/
 - https://github.com/the-concurrent-schemer/scm
 
 *** statically-typed languages
+**** ActorForth (2020-5)
+
+"A strongly typed Forth-like language ultimately intended to make it easy to build DSLs with an actor concurrency model. Implemented in Erlang. Should get along with anything running on the BEAM."
+
+- https://github.com/ActorForth/ActorForth
+
 **** alpaca (2016+)
 
 - https://github.com/alpaca-lang/alpaca
@@ -82,7 +96,14 @@ clojerl - Clojure for the Erlang VM
 An Erlang backend to the OCaml compiler
 
 - https://caramel.run/
-- https://github.com/AbstractMachinesLab/caramel
+- https://github.com/leostera/caramel
+
+**** cure (2025+)
+
+A strongly-typed, dependently-typed programming language for the BEAM virtual machine with built-in finite state machines, complete import system, and comprehensive standard library.
+
+- https://cure-lang.org/
+- https://github.com/am-kantox/cure-lang
 
 **** cuneiform (2013+)
 
@@ -97,11 +118,31 @@ An Elm syntax front-end for Elixir (i.e., converts Elm-style input language into
 - https://wende.github.io/elchemy/
 - https://github.com/wende/elchemy
 
+**** elm-beam (2018)
+
+"Exploring Elm on the Erlang VM"
+
+- https://github.com/kofigumbs/elm-beam
+
+See also blog post [[https://kofi.sexy/blog/elm-beam][elm-beam]].
+
 **** eml (2012)
 
 "eml - Erlang flavored by Some ML"
 
 - https://github.com/etnt/eml
+
+**** erlml (-2018)
+
+"erlml - an ML implementation for the Erlang/OTP VM"
+
+- https://github.com/mikpe/erlml
+
+**** erty (2023)
+
+Erty is Erlang but with stronger support for types (ERlang with TYpes).
+
+- https://github.com/masp/erty
 
 **** fez (2017+)
 
@@ -149,7 +190,13 @@ This is an Idris package (therefore requiring Haskell and Idris) which compiles 
 
 An Erlang code generator for Idris 2 (eg compiles Idris 2 programs to Erlang source code or to BEAM).
 
-- https://github.com/chrrasmussen/Idris2-Erlang
+- https://github.com/christian-public/Idris2-Erlang
+
+**** lark (-2022)
+
+"... designed to be simple to use, easy to read and provide powerful static guarantees."
+
+- https://github.com/arnfred/Lark
 
 **** purerl (2016+)
 
@@ -160,6 +207,12 @@ Erlang backend for PureScript
 
 - Introducing PureScript Erlang ::
   http://nwolverson.uk/devlog/2016/08/01/introducing-purescript-erlang.html
+
+**** purescript-backend-erl (-2025)
+
+"PureScript to Erlang optimizing compiler"
+
+- https://github.com/id3as/purescript-backend-erl
 
 **** rufus (2018+)
 
@@ -183,7 +236,31 @@ A "Session-Typed Erlang", an ML-inspired statically-typed Erlang
 - [[https://blog.michallepicki.com/notes-on-using-sesterl.html][Notes on using Sesterl]]
 - [[https://github.com/gfngfn/game_tianjiupai][Sample game reference based on Elm and Sesterl]]
 
+**** shen-erl (-2019)
+
+Erlang port of the [[https://github.com/Shen-Language/shen-sources][Shen programming language]].
+
+- https://github.com/sborrazas/shen-erl
+
+**** terp (-2021)
+
+" A functional programming language with lisp syntax and ML semantics that runs on the BEAM."
+
+- https://github.com/smpoulsen/terp
+
 *** etc
+**** bada (2023)
+
+"Simple Programming Language that compiles to BEAM bytecode"
+
+- https://github.com/tsoding/bada
+
+**** dfs (2018-2024)
+
+"Essentially InfluxData's [[https://docs.influxdata.com/kapacitor/v1/reference/tick/][TICKscript]] for Erlang"
+
+- https://github.com/heyoka/dfs
+
 **** efene (2009+)
 
 - http://efene.org/
@@ -201,6 +278,12 @@ An erlang interpreter for PHP
 - https://github.com/bragful/ephp
 
 Presumably as used by [[https://bragful.com][Bragful]] --- "A resilient and scalable PHP".
+
+**** er (-2020)
+
+" er ~ emergency room (a BEAM language "improving" on Erlang)"
+
+- https://github.com/er-lang/er
 
 **** erl2 (2012)
 
@@ -239,17 +322,53 @@ A couple of blog posts from 2008 (the second is by the original developer of erl
 - ErlyJS - translating Javascript to Erlang ::
   http://rsaccon.blogspot.co.uk/2008/02/erlyjs-translating-javascript-to-erlang.html
 
+**** exprolog (-2018)
+
+Exprolog is a logic programming language(DSL) like Prolog built on top of Elixir.
+
+- https://github.com/k1complete/exprolog
+
 **** ffe: Forth-flavoured Erlang (2014-2016)
 
 - https://github.com/tonyrog/ffe
+
+**** gdminus (-2024)
+
+"gdminus is an implementation of [[https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html][GDScript]] for Erlang, allowing Erlang applications to share code with [[https://godotengine.org/][Godot]]."
+
+- https://github.com/saltysystems/gdminus
+
+**** grant_lang (2020)
+
+" A (terrible) BEAM programming language"
+
+- https://github.com/GrantJamesPowell/grant_lang
+
+**** hoeg (2020)
+
+"a toy concatenative language running on the BEAM"
+
+- https://github.com/vorce/hoeg
 
 **** interfix (2015)
 
 - https://github.com/marianoguerra/interfix
 
+**** krarup (2024)
+
+"krarup is an Erlang dialect for composing concurrent data processing flows."
+
+- https://github.com/mpope9/krarup
+
 **** luerl (2012+)
 
 - https://github.com/rvirding/luerl
+
+**** noether (2017-2018)
+
+"... of a C/C++/Java-friendly language to do easier the adoption of the BEAM."
+
+- https://github.com/altenwald/noether
 
 **** OTPCL (2017+)
 
@@ -258,10 +377,29 @@ Open Telecom Platform Command Language: "a scripting language designed to integr
 - https://otpcl.github.io/
 - https://github.com/otpcl/otpcl
 
+**** plex (-2016)
+
+Plex is a simple programming language based on a notion of objects as extensible records. It supports eager evaluation, first-class functions and dynamic types, but tries to check the integrity of programs statically — that is, at compile time.
+
+- https://github.com/rpip/plex
+
 **** reia (-2012)
 
 - http://reia-lang.org/
 - https://github.com/tarcieri/reia
+
+**** slick (2021)
+
+"A duck-typed, dynamic oop language with a fully redundant actor-model, running on top of the BEAM architecture."
+
+- https://github.com/gitter-badger/slick-2
+
+**** tele (2024-5)
+
+"Alternative syntax for Erlang"
+
+- https://github.com/fancycade/tele
+- https://telelang.org
 
 **** template_compiler (2016-)
 
@@ -281,6 +419,9 @@ Five web articles in 2013 starting with:
   http://ninenines.eu/articles/xerl-0.1-empty-modules/
 
 ** About Languages
+*** Other BEAM Langagues lists
+
+- [[https://github.com/stars/michallepicki/lists/beam-languages][Michał Łępicki's beam languages]] (current)
 
 *** Implementing languages on the BEAM (4)
 
