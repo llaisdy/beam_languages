@@ -180,6 +180,12 @@ Haskell-style functional programming language running on Erlang VM.
 - Yhc/Erlang/Proof of concept ::
   https://wiki.haskell.org/Yhc/Erlang/Proof_of_concept
 
+**** hirð (2026+)
+
+"A typed language for long-running agent systems on BEAM: effect-row tracking, auditable tool effects, typed actors, and OTP supervision."  Rust-implemented compiler emitting Erlang source; also ships an LSP server and an MCP server exposing compiler queries (type inference, effect rows, actor protocols) to LLM agents.
+
+- https://github.com/no-materials/hird
+
 **** idris-erlang (2014-17)
 
 - https://github.com/lenary/idris-erlang
