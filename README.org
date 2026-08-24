@@ -3,7 +3,7 @@
 ** Contents                                                             :TOC:
 - [[#languages-and-about-languages-on-the-beam][Languages, and about languages, on the BEAM]]
   - [[#overview][Overview]]
-  - [[#54-languages-on-the-beam][54 Languages on the BEAM]]
+  - [[#57-languages-on-the-beam][57 Languages on the BEAM]]
   - [[#about-languages][About Languages]]
   - [[#about-the-beam][About the BEAM]]
   - [[#erlang-and-types][Erlang and Types]]
@@ -18,15 +18,15 @@ I would like the document to be comprehensive, or at least "representative".  If
 
 Thank you.
 
-** 54 Languages on the BEAM
+** 57 Languages on the BEAM
 
-First Erlang itself,
+First the  1 Erlang itself,
  then the  6 main [[#lisps][Lisp-influenced]] languages,
- then the 22 [[#statically-typed-languages][statically-typed]] languages,
- then the 25 [[#etc][others]].  Adding Erlang,
- that's   54 languages in all.
+ then the 25 [[#statically-typed-languages][statically-typed]] languages,
+ then the 25 [[#etc][others]].  That's
+          57 languages in all.
 
-In the latest update (December 2025), there are now too many lisps implemented in erlang and (mostly) elixir in github to count.  There are also quite a few language projects I missed earlier.  Projects which haven't been updated since 2018 I haven't always included.  Many languages I didn't include here are in  [[https://github.com/stars/michallepicki/lists/beam-languages][Michał Łępicki's beam languages]] list.
+At the December 2025 update, there were too many lisps implemented in erlang and (mostly) elixir in github to count.  There are also quite a few language projects I missed earlier.  Projects which haven't been updated since 2018 I haven't always included.  Many languages I didn't include here are in  [[https://github.com/stars/michallepicki/lists/beam-languages][Michał Łępicki's beam languages]] list.
 
 *** erlang itself
 
